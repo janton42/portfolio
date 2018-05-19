@@ -1,0 +1,14 @@
+{
+	"name": "portfolio",
+	"version": "0.0.0",
+	"description": "A colleciton of my work",
+	"main": "script.js",
+	"repository": {
+		"type": "git",
+		"url":"",
+	},
+	"author": "Jeff Stock",
+	"license": "ISC",
+	"devDependencies": {},
+	"dependencies": {}
+}
