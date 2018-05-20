@@ -1,8 +1,19 @@
-
+/*
+color pallette:
+light pink = #E5D1D0
+light blue = #C5D1EB
+darker blue = #92AFD7
+light green = #839788
+darder green = #395B50
+*/
 
 .centerText {
-	color: red;
+	color: #000;
 	text-align: center;
+}
+
+body {
+	background-color: #92AFD7;
 }
 
 /* for older browsers */
