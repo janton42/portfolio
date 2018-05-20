@@ -9,6 +9,10 @@
 	},
 	"author": "Jeff Stock",
 	"license": "ISC",
-	"devDependencies": {},
-	"dependencies": {}
+	"devDependencies": {
+		"sass":"^1.3.2"
+	},
+	"dependencies": {
+
+	}
 }
