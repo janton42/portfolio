@@ -60,7 +60,6 @@ var jarvis = {
       'There\'s always money in the banana stand',
       'There\s got to be some way outta here...',
       'U R BADZ',
-      'Alex is stupid.',
       'lololololololololololol',
       'Waka waka waka'
     ]

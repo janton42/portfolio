@@ -6,6 +6,11 @@ darker blue = #92AFD7
 light green = #839788
 darker green = #395B50
 */
+.smaller-image {
+	width: 4.8em;
+	padding: 0.5em;
+	border-radius: 25%;
+}
 
 .centerText {
 	color: #000;
