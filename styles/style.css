@@ -4,7 +4,7 @@ light pink = #E5D1D0
 light blue = #C5D1EB
 darker blue = #92AFD7
 light green = #839788
-darder green = #395B50
+darker green = #395B50
 */
 
 .centerText {
@@ -13,7 +13,7 @@ darder green = #395B50
 }
 
 body {
-	background-color: #92AFD7;
+	background-color: #395B50;
 }
 
 /* for older browsers */
