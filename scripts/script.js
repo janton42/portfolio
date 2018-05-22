@@ -2,6 +2,24 @@ document.getElementById("saySmth").addEventListener("click", speak);
 
 document.getElementById("day").addEventListener("click", date);
 
+document.getElementById("first-example").addEventListener('click', caption1);
+
+document.getElementById("second-example").addEventListener('click', caption2);
+
+document.getElementById("third-example").addEventListener('click', caption3);
+
+function caption1(){
+	document.getElementById('first-caption').innerHTML = jarvis.response();
+}
+
+function caption2(){
+	document.getElementById('second-caption').innerHTML = jarvis.response();
+}
+
+function caption3(){
+	document.getElementById('third-caption').innerHTML = jarvis.response();
+}
+
 function speak(){
 	document.getElementById("main-heading").innerHTML = jarvis.response();
 }
