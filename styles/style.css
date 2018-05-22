@@ -7,18 +7,21 @@ light green = #839788
 darker green = #395B50
 */
 .smaller-image {
-	width: 4.8em;
+	background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	width:131px;
+	height:131px
 	padding: 0.5em;
 	border-radius: 25%;
 }
 
-.centerText {
+.heading {
 	color: #000;
-	text-align: center;
+	text-align: right;
 }
 
 body {
-	background-color: #395B50;
+	background-color: #E5D1D0;
 }
 
 /* for older browsers */

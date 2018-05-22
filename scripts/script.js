@@ -3,7 +3,7 @@ document.getElementById("saySmth").addEventListener("click", speak);
 document.getElementById("day").addEventListener("click", date);
 
 function speak(){
-	document.getElementById("response").innerHTML = jarvis.response();
+	document.getElementById("main-heading").innerHTML = jarvis.response();
 }
 
 function date(){
@@ -69,3 +69,4 @@ var jarvis = {
     return responseList[response];
   }
 }
+
