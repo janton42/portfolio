@@ -21,7 +21,7 @@ function caption3(){
 }
 
 function speak(){
-	document.getElementById("main-heading").innerHTML = jarvis.response();
+	document.getElementById("sub-heading").innerHTML = jarvis.response();
 }
 
 function date(){

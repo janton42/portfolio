@@ -1,11 +1,40 @@
 /*
-color pallette:
-light pink = #E5D1D0
-light blue = #C5D1EB
-darker blue = #92AFD7
-light green = #839788
-darker green = #395B50
+background-color : #FFCCCC
+color : #A0B0BB
+color : #788F9F
+color : #1D7EA8
+color : #27A9E1
+color : #93D4F0
+color : #FFA933
+color : #F55D5D
+color : #4EC099
+color : #1D2129
+color : #2397CA
+color : #365899
+color : 
 */
+
+
+header {
+		background-color: green;
+}
+
+body {
+	background-color: pink;
+}
+
+/* for older browsers */
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+footer {
+	background-color: orange;
+}
+
 .smaller-image {
 	background-size:100% 100%;
 	-webkit-background-size:100% 100%;
@@ -20,13 +49,10 @@ darker green = #395B50
 	text-align: right;
 }
 
-body {
-	background-color: #E5D1D0;
+#button-box {
+	background-color: red;
 }
 
-/* for older browsers */
-html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+#work-samples {
+	background-color: #90949C;
 }

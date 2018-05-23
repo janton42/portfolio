@@ -1,3 +1,3 @@
 $(document).ready(function(){
-	$('#main-heading').css('color', 'blue');
+	$('#main-heading').css('color', 'black');
 });
