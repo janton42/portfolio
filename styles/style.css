@@ -15,14 +15,15 @@ color :
 */
 
 
-/*header {
+header {
 		background-color: green;
+		width: 100%;
 }
 
 body {
 	background-color: pink;
 }
-*/
+
 /* for older browsers */
 
 html {
@@ -31,9 +32,10 @@ html {
   box-sizing: border-box;
 }
 
-/*footer {
+footer {
 	background-color: orange;
-}*/
+	/*position: fixed;*/
+}
 
 .smaller-image {
 	background-size:100% 100%;
@@ -46,13 +48,16 @@ html {
 
 .heading {
 	color: #000;
-	text-align: right;
+	text-align: center;
 }
 
-/*#button-box {
-	background-color: red;
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 
-#work-samples {
-	background-color: #90949C;
-}*/
+.thumbnail {
+	max-width: 100%;
+}
