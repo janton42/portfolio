@@ -88,3 +88,25 @@ var jarvis = {
   }
 }
 
+var portfolio = {
+  'test1': {
+    'description': 'string1',
+    'link': 'url',
+    'thumbnail': 'thumbnail_gif1'
+  },
+  'test2': {
+    'description': 'string2',
+    'link': 'url2',
+    'thumbnail': 'thumbnail_gif2'
+  }
+}
+
+
+var display = {
+
+  'showPortfolioItems':function() {
+    var output = '<div class="container"><img src="static/max_smile_2018" class="image-responsive thumbnail" alt="Profile picture"></br><p id="first-caption">Explanaition of the web page</p></div>  <div class="container"><img src="static/max_smile_2018" class="image-responsive thumbnail" alt="Profile picture"></br><p id="first-caption">Explanaition of the web page</p></div>'
+    return output;
+  }
+
+}
