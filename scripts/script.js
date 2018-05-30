@@ -88,27 +88,23 @@ var jarvis = {
   }
 }
 
-var portfolio = {
-  'test1': {
-    'description': 'string1',
-    'link': 'url',
-    'thumbnail': 'thumbnail_gif1'
-  },
-  'test2': {
-    'description': 'string2',
-    'link': 'url2',
-    'thumbnail': 'thumbnail_gif2'
-  }
-}
 
 
 var display = {
 
-  'showPortfolioItems':function() {
-    var output = ''
-    
-    output += '<div class="container"><img src="' + 'static/max_smile_2018' + '" class="image-responsive thumbnail" alt="Profile picture"></br><p id="' + 'first-caption' + '">Explanaition of the web page</p></div>'
-    return output;
-  }
-
+  'showPortfolioItems': function(arr) {
+      var output = arr.map(function(item){
+        var image = item.thumbnail;
+        var label = item.description;
+        var dest = item.url;
+        return '<div class="container"><img src="' + image + '" class="image-responsive thumbnail" alt="Profile picture"></br><p id="' + 'first-caption' + '">' + label + '</p></div>'
+      });
+      return output.join('');
+    }
 }
+
+
+  //   var output = ''
+    
+  //   output += '<div class="container"><img src="' + 'static/max_smile_2018' + '" class="image-responsive thumbnail" alt="Profile picture"></br><p id="' + 'first-caption' + '">Explanaition of the web page</p></div>'
+  //   return output;
