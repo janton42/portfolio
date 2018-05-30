@@ -19,11 +19,6 @@ header {
 		background-color: green;
 		width: 100%;
 }
-
-body {
-	background-color: pink;
-}
-
 /* for older browsers */
 
 html {
@@ -31,6 +26,21 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+/* sets inheritance for box sizing*/
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* excludes images in default box sizing */ 
+img { 
+	box-sizing: content-box; 
+}
+
+body {
+	background-color: pink;
+}
+
 
 footer {
 	background-color: orange;
