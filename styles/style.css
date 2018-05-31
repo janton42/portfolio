@@ -49,12 +49,14 @@ img {
 }
 
 body {
-	background-color: pink;
+	background-color: #4EC099;
+	overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 
 footer {
-	background-color: orange;
+	background-color: #007bff;
 	/*position: fixed;*/
 }
 

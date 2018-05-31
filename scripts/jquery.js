@@ -1,10 +1,10 @@
 var portfolio = [
-  {
+  	{
     'description': 'string1',
-    'url': 'url',
+    'url': 'http://jeffstock.herokuapp.com/',
     'thumbnail': 'static/max_smile_2018'
   },
-  {
+  	{
     'description': 'string2',
     'url': 'url2',
     'thumbnail': 'static/max_smile_2018'
