@@ -97,7 +97,7 @@ var display = {
         var image = item.thumbnail;
         var label = item.description;
         var dest = item.url;
-        return '<div class="container"><img src="' + image + '" class="image-responsive thumbnail" alt="Profile picture"></br><p id="' + 'first-caption' + '">' + label + '</p></div>'
+        return '<div class="container"><a href="'+ dest +'"><img src="' + image + '" class="image-responsive thumbnail"></a></br><p>' + label + '</p></div>'
       });
       return output.join('');
     }

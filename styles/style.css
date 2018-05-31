@@ -50,8 +50,10 @@ img {
 
 body {
 	background-color: #4EC099;
+	/*add smooth scrolling for mobile screens*/
 	overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
+    padding-top: 70px;
 }
 
 
@@ -84,7 +86,11 @@ footer {
 }
 
 .thumbnail {
-	max-width: 100%;
+	width: 17.5em;
+	height: auto;
+	border: 0.0625em solid #ddd;
+	border-radius: 0.25em;
+	padding: 0.3125em;
 }
 
 
