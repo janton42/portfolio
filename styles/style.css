@@ -53,7 +53,8 @@ body {
 	/*add smooth scrolling for mobile screens*/
 	overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-    padding-top: 70px;
+    /*required to use bootstrap's navbar-fixed-top*/
+   /* padding-top: 70px;*/
 }
 
 
@@ -62,6 +63,13 @@ footer {
 	/*position: fixed;*/
 }
 
+nav {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #365899;
+}
 /* not in use
 
 .smaller-image {
