@@ -122,4 +122,7 @@ footer {
 
 #profile-pic {
 	padding-top: 1em;
+	border-radius: 60%;
+	max-width: 25em;
+	height: auto;
 }

@@ -52,7 +52,7 @@ var jarvis = {
     } else if (day === 6) {
       day = 'Saturday';
     }
-    dayTimeStr += 'Today is : ' + day + '.\nCurrent time is : ' + hour + ' : ' + minute + ' : ' +  second;
+    dayTimeStr += 'Today is : ' + day + '.<br>Current time is : ' + hour + ' : ' + minute + ' : ' +  second;
 
     return dayTimeStr;
   },
@@ -104,7 +104,3 @@ var display = {
 }
 
 
-  //   var output = ''
-    
-  //   output += '<div class="container"><img src="' + 'static/max_smile_2018' + '" class="image-responsive thumbnail" alt="Profile picture"></br><p id="' + 'first-caption' + '">Explanaition of the web page</p></div>'
-  //   return output;

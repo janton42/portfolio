@@ -11,12 +11,6 @@ var portfolio = [
     'url': 'http://10.0.0.251/portfolio/',
     'thumbnail': 'static/Capture.GIF'
   },
-  {
-    'name': 'Test 3',
-    'description': 'string3',
-    'url': 'url2',
-    'thumbnail': 'static/max_smile_2018'
-  }
 ];
 
 $(document).ready(function(){
