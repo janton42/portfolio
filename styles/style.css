@@ -54,7 +54,7 @@ body {
 	overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     /*required to use bootstrap's navbar-fixed-top*/
-   /* padding-top: 70px;*/
+    padding-top: 3em;
 }
 
 
@@ -63,7 +63,7 @@ footer {
 	/*position: fixed;*/
 }
 
-nav {
+.navbar {
   z-index: 10;
   position: fixed;
   top: 0;
@@ -118,4 +118,8 @@ nav {
 
 #header-container {
 	padding: 0;
+}
+
+#profile-pic {
+	padding-top: 1em;
 }
