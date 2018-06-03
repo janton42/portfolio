@@ -79,7 +79,7 @@ var jarvis = {
       'There\s got to be some way outta here...',
       'U R BADZ',
       'lololololololololololol',
-      'Waka waka waka'
+      'Waka waka waka',
     ]
     var min = 0;
     var max = responseList.length;
